@@ -691,7 +691,9 @@
     text-align: left;
     color: #FFFFFF;
 }
-
+.copyright{
+    margin-bottom: 0;
+}
 .content-li {
     font-family: var(--poppins);
     font-size: var(--fs-12);
@@ -881,6 +883,7 @@ ul li a {
     .explore-of-section-4 {
         max-width: unset;
     }
+
 }
 
 @media (max-width:768px) {
