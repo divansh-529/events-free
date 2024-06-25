@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yantramanav:wght@100;300;400;500;700;900&display=swap');
+
+/* root for font-size */
+:root {
+    --fs-36: 36px;
+    --fs-16: 16px;
+    --fs-12: 12px;
+    --fs-64: 64px;
+    --fs-20: 20px;
+    --fs-48: 48px;
+    --fs-25: 25px;
+    --fs-14: 14px;
+    --fs-32: 32px;
+    /* root for font-weight */
+    --fw-700: 700;
+    --fw-400: 400;
+    --fw-600: 600;
+    --fw-500: 500;
+    /* root for color */
+    --white: white;
+    --dark-blue: #2C49FE;
+    --sky-blue: #01C8FF;
+    /* root for font-famely */
+
+    --poppins: "Poppins", sans-serif;
+    --Yantramanav: "Yantramanav", sans-serif;
+    /* root for line-height */
+    --lh-21: 21px;
+    --lh-24: 24px;
+    --lh-26: 26px;
+    --lh-30: 30px;
+    --lh-48: 48.6px;
+    --lh-96: 96.32px;
+    --lh-72: 72px;
+    --lh-62: 62px;
+    --lh-52: 52px;
+    --lh-38: 38px;
+    /* root for text align */
+    --text-lg: left;
+    --text-lg: center;
+}
+
+@media (max-width:992px) {
+    :root {
+        --fs-36: 25px;
+        --fs-16: 16px;
+        --fs-12: 12px;
+        --fs-64: 48px;
+        --fs-20: 20px;
+        --fs-48: 48px;
+        --fs-25: 25px;
+        --fs-14: 14px;
+        --fs-32: 32px;
+        /* root for font-weight */
+        --fw-700: 700;
+        --fw-400: 400;
+        --fw-600: 600;
+        --fw-500: 500;
+        /* root for color */
+        --white: white;
+        --dark-blue: #2C49FE;
+        --sky-blue: #01C8FF;
+        /* root for font-famely */
+
+        --poppins: "Poppins", sans-serif;
+        --Yantramanav: "Yantramanav", sans-serif;
+        /* root for line-height */
+        --lh-21: 21px;
+        --lh-24: 24px;
+        --lh-26: 26px;
+        --lh-30: 30px;
+        --lh-48: 48.6px;
+        --lh-96: 60.32px;
+        --lh-72: 72px;
+        --lh-62: 62px;
+        --lh-52: 52px;
+        --lh-38: 38px;
+        /* root for text align */
+        --text-lg: left;
+        --text-lg: center;
+    }
+}
